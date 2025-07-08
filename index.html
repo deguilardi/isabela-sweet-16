@@ -18,9 +18,10 @@
         .font-handwriting {
             font-family: 'Great Vibes', cursive;
         }
-        .bg-primary { background-color: #FADADD; } /* Dusty Rose */
-        .bg-secondary { background-color: #FFF8F0; } /* Cream */
+        .bg-primary { background-color: #4d5f5a; } /* Dusty Rose */
+        .bg-secondary { background-color: #59262b; } /* Cream */
         .text-accent { color: #DAA520; } /* Gold */
+        .text-accent-contrast { color: #FFFFFF; }
         .border-accent { border-color: #DAA520; }
         .btn-primary {
             background-color: #DAA520;
@@ -55,9 +56,9 @@
     <header class="relative min-h-screen flex flex-col items-center justify-center text-white text-center p-6 bg-cover bg-center">
         <div class="absolute inset-0 bg-black/40"></div>
         <div class="relative z-10">
-            <h2 class="font-handwriting text-4xl md:text-6xl mb-2">You're Invited to Celebrate</h2>
-            <h1 class="font-handwriting text-7xl md:text-9xl font-bold text-shadow-lg">Isabela's Sweet 16</h1>
-            <p class="mt-4 text-lg md:text-xl max-w-2xl mx-auto">Join us for an unforgettable night of music, laughter, and memories as we celebrate a special milestone.</p>
+            <h2 class="font-handwriting text-5xl md:text-7xl mb-2">Isabela Guilardi</h2>
+            <h1 class="font-handwriting text-6xl md:text-8xl font-bold text-shadow-lg">Sweet 16</h1>
+            <p class="mt-4 text-lg md:text-xl max-w-2xl mx-auto">An unforgettable night of music, laughter, and memories as we celebrate a special milestone</p>
             
             <!-- Countdown Timer -->
             <div id="countdown" class="flex justify-center gap-2 sm:gap-4 md:gap-8 mt-10">
@@ -85,7 +86,7 @@
         
         <!-- Event Details Section -->
         <section id="details" class="scroll-animate text-center mb-20">
-            <h2 class="font-handwriting text-5xl md:text-7xl text-accent mb-8">The Celebration</h2>
+            <h2 class="font-handwriting text-5xl md:text-7xl text-accent-contrast mb-8">The Celebration</h2>
             <div class="flex flex-wrap justify-center gap-8">
                 <!-- When -->
                 <div class="bg-white p-8 rounded-xl shadow-lg w-full md:w-1/3">
@@ -113,7 +114,7 @@
         <!-- About Isabela Section -->
         <section id="about" class="scroll-animate flex flex-col md:flex-row items-center gap-12 my-20 bg-white p-12 rounded-xl shadow-lg">
             <div class="md:w-1/3">
-                <img src="https://placehold.co/400x500/FADADD/5C3A21?text=Isabela" alt="Portrait of Isabela" class="rounded-lg shadow-xl w-full">
+                <img src="./assets/isabela-2011-09-10-smilling-at-mirror-small.jpg" alt="Portrait of Isabela" class="rounded-lg shadow-xl w-full">
             </div>
             <div class="md:w-2/3 text-center md:text-left">
                 <h2 class="font-handwriting text-5xl md:text-7xl text-accent mb-4">Meet Isabela</h2>
@@ -124,12 +125,15 @@
 
         <!-- Photo Gallery -->
         <section id="gallery" class="scroll-animate text-center my-20">
-            <h2 class="font-handwriting text-5xl md:text-7xl text-accent mb-8">Sweet Memories</h2>
+            <h2 class="font-handwriting text-5xl md:text-7xl text-accent-contrast mb-8">Sweet Memories</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div class="overflow-hidden rounded-lg shadow-lg"><img src="https://placehold.co/400x400/FADADD/FFFFFF?text=Memory+1" alt="Memory 1" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"></div>
-                <div class="overflow-hidden rounded-lg shadow-lg"><img src="https://placehold.co/400x400/FADADD/FFFFFF?text=Memory+2" alt="Memory 2" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"></div>
-                <div class="overflow-hidden rounded-lg shadow-lg"><img src="https://placehold.co/400x400/FADADD/FFFFFF?text=Memory+3" alt="Memory 3" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"></div>
-                <div class="overflow-hidden rounded-lg shadow-lg"><img src="https://placehold.co/400x400/FADADD/FFFFFF?text=Memory+4" alt="Memory 4" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-lg"><img src="./assets/isabela-2024-06-06-middle-school-grad-small.jpg" alt="My middle School Graduation" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-lg"><img src="./assets/isabela-2023-04-23-baptism-small.jpg" alt="Going public" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-lg"><img src="./assets/isabela-2020-11-29-bonne-homme-de-neige-small.jpg" alt="My first bonne homme de neige" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-lg"><img src="./assets/isabela-2013-11-18-cutest-cowgirl-small.jpg" alt="Cutest cowgirl" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"></div>
+                <div class="overflow-hidden rounded-lg shadow-lg"><img src="./assets/isabela-2011-06-26-love-sour-small.jpg" alt="I love sour" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"></div>
+                <!-- <div class="overflow-hidden rounded-lg shadow-lg"><img src="./assets/isabela-2010-11-26-1yo-with-greatgramma-small.jpg" alt="1 yo with great gramma" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"></div> -->
+                <div class="overflow-hidden rounded-lg shadow-lg"><img src="./assets/isabela-2009-11-18-day-1-small.jpg" alt="My day 1  " class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"></div>
             </div>
         </section>
 
@@ -145,8 +149,8 @@
     </main>
 
     <!-- Footer -->
-    <footer class="text-center py-8 bg-primary text-white">
-        <p class="font-handwriting text-3xl">Thank you for being a part of this special day!</p>
+    <footer class="text-center py-8 bg-primary text-white p-4">
+        <p class="font-handwriting text-3xl">Thank's for being a part of this special day!</p>
         <p class="mt-2">&copy; 2025 Isabela's Sweet Sixteen Celebration</p>
     </footer>
 

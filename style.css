@@ -13,22 +13,32 @@
     src: url("./assets/fonts/sorafindea-calligraphy-script-2024-05-07-21-35-59-utc/Sorafindea.otf") format("opentype");
 }
 
+@font-face {
+    font-family: Baskerville;
+    src: url("./assets/fonts/baskerville/baskerville.otf") format("opentype");
+}
+
 /* Custom styles for the elegant theme */
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: Baskerville, sans-serif;
+    font-style: italic;
     color: #4d5f5a;
 }
 .font-handwriting-1 {
     font-family: 'Great Vibes', cursive;
+    font-style: normal;
 }
 .font-handwriting-2 {
     font-family: HollandTreasureDisplay, cursive;
+    font-style: normal;
 }
 .font-handwriting-3 {
     font-family: Aricena, cursive;
+    font-style: normal;
 }
 .font-handwriting-4 {
     font-family: Sorafindea, cursive;
+    font-style: normal;
 }
 .bg-primary { background-color: #4d5f5a; }
 .bg-primary-light { background-color: #edeae3; }

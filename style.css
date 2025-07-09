@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Aricena;
+    src: url("./assets/fonts/aricena-elegant-serif-font-2024-08-22-19-22-52-utc/OTF/Aricena-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: HollandTreasureDisplay;
+    src: url("./assets/fonts/holland-treasure-font-family-2023-11-27-04-59-22-utc/Holland\ Treasure\ Display-Display.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Sorafindea;
+    src: url("./assets/fonts/sorafindea-calligraphy-script-2024-05-07-21-35-59-utc/Sorafindea.otf") format("opentype");
+}
+
+/* Custom styles for the elegant theme */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #4d5f5a;
+}
+.font-handwriting-1 {
+    font-family: 'Great Vibes', cursive;
+}
+.font-handwriting-2 {
+    font-family: HollandTreasureDisplay, cursive;
+}
+.font-handwriting-3 {
+    font-family: Aricena, cursive;
+}
+.font-handwriting-4 {
+    font-family: Sorafindea, cursive;
+}
+.bg-primary { background-color: #4d5f5a; }
+.bg-primary-light { background-color: #edeae3; }
+.bg-secondary { background-color: #59262b; }
+.text-accent { color: #DAA520; }
+.text-accent-contrast { color: #FFFFFF; }
+.border-accent { border-color: #DAA520; }
+.btn-primary {
+    background-color: #4d5f5a;
+    color: #FFFFFF;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(77, 95, 90, 0.3);
+}
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(77, 95, 90, 0.4);
+}
+.countdown-item {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* Animation for sections */
+.scroll-animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.scroll-animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+}

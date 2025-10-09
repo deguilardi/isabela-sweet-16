@@ -71,3 +71,46 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+/* sections */
+#wishlist ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+#wishlist li {
+    padding: 15px;
+    border-bottom: 1px solid #F0F0F0;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#wishlist li:last-child {
+    border-bottom: none;
+}
+#wishlist li a {
+    color: #DAA520;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+#wishlist li a:hover {
+    text-decoration: underline;
+    color: #AD7A40;
+}
+#wishlist li span {
+    color: #999;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 15px;
+    white-space: nowrap;
+}
+#wishlist .item-note {
+    display: block;
+    font-size: 0.85rem;
+    color: #fff;
+    margin-top: 5px;
+    font-weight: 400;
+}

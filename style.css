@@ -79,7 +79,6 @@ body {
     text-align: left;
 }
 #wishlist li {
-    padding: 15px;
     border-bottom: 1px solid #F0F0F0;
     font-size: 1rem;
     display: flex;

@@ -105,7 +105,6 @@ body {
     font-size: 0.9rem;
     font-weight: 600;
     margin-left: 15px;
-    white-space: nowrap;
 }
 #wishlist .item-note {
     display: block;
